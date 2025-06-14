@@ -4,7 +4,7 @@ export const AppContext=createContext()
 const currency=import.meta.env.VITE_CURRENCY
 export const AppContextProvider=(props)=>{
   const value={
-    
+    currency
   }
 
   return (

@@ -6,10 +6,10 @@ const CourseCard = ({ course }) => {
     _id,
     courseTitle,
     courseThumbnail,
-    educator,
-    coursePrice,
-    discount,
-    rating,
+    educator = {},
+    coursePrice = 0,
+    discount = 0,
+    rating = 4.5,
   } = course;
 
   const discountedPrice = (coursePrice - (discount * coursePrice) / 100).toFixed(2);
@@ -29,11 +29,11 @@ const CourseCard = ({ course }) => {
           {courseTitle}
         </h3>
         <p className="text-sm text-gray-500 mb-2 truncate">
-          By {educator?.name || 'Unknown'}
+          By {educator.name || 'Unknown'}
         </p>
         <div className="flex justify-between items-center text-sm text-gray-700 font-medium">
           <span>₹{discountedPrice}</span>
-          <span>⭐ {rating?.toFixed(1) || '4.5'}</span>
+          <span>⭐ {Number(rating).toFixed(1)}</span>
         </div>
       </div>
     </Link>
@@ -41,4 +41,5 @@ const CourseCard = ({ course }) => {
 };
 
 export default CourseCard;
+
 
