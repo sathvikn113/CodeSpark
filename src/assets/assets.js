@@ -125,52 +125,46 @@ export const dummyTestimonial = [
     },
 ];
 
-export const dummyDashboardData = {
-    "totalEarnings": 707.38,
-    "enrolledStudentsData": [
-        {
-            "courseTitle": "Introduction to JavaScript",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
-        },
-        {
-            "courseTitle": "Advanced Python Programming",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
-        },
-        {
-            "courseTitle": "Web Development Bootcamp",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
-        },
-        {
-            "courseTitle": "Data Science with Python",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
-        },
-        {
-            "courseTitle": "Cybersecurity Basics",
-            "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
-            }
-        }
-    ],
-    "totalCourses": 8
-}
+const sampleCourses = [
+  {
+    _id: '1',
+    courseTitle: 'Mastering JavaScript',
+    courseThumbnail: 'https://img.freepik.com/free-vector/javascript-programming-language-computer-programming-coding-website-html-concept_335657-5567.jpg?w=740',
+    educator: { name: 'Prof. John Doe' },
+    coursePrice: 999,
+    discount: 20,
+    rating: 4.6,
+  },
+  {
+    _id: '2',
+    courseTitle: 'Advanced React',
+    courseThumbnail: 'https://img.freepik.com/free-vector/react-native-programming-language-computer-programming-coding-website-html-concept_335657-5624.jpg?w=740',
+    educator: { name: 'Jane Smith' },
+    coursePrice: 1299,
+    discount: 30,
+    rating: 4.8,
+  },
+  {
+    _id: '3',
+    courseTitle: 'UI/UX Fundamentals',
+    courseThumbnail: 'https://img.freepik.com/free-vector/user-interface-designers-team-analyzing-wireframe-application_335657-5447.jpg?w=740',
+    educator: { name: 'Arun Mehta' },
+    coursePrice: 899,
+    discount: 10,
+    rating: 4.5,
+  },
+  {
+    _id: '4',
+    courseTitle: 'Python for Data Science',
+    courseThumbnail: 'https://img.freepik.com/free-vector/python-programming-language-computer-programming-coding-website-html-concept_335657-5559.jpg?w=740',
+    educator: { name: 'Priya Shah' },
+    coursePrice: 1099,
+    discount: 25,
+    rating: 4.7,
+  },
+];
+
+
 
 export const dummyStudentEnrolled = [
     {

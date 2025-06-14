@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
  <div
-  className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b border-gray-500 py-4 ${
-    isCourseListPage ? 'bg-white' : 'bg-cyan-100/70'
+  className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b border-green-500 py-4 ${
+    isCourseListPage ? 'bg-white' : 'bg-green-100/70'
   }`}
 >
   {/* Left: Logo */}
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   {/* Right Section */}
   <div className="flex items-center gap-4 text-gray-500">
-    <button className="hidden sm:block">Become Educator</button>
+    <button className="hidden sm:block">Become Educator  |</button>
     <Link to="/my-enrollments" className="hidden sm:block">
       My Enrollments
     </Link>
