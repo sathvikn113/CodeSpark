@@ -12,7 +12,7 @@ It allows educators to deliver structured online courses with features that plat
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the hosted project](https://your-username.github.io/your-repo-name)
+🔗 [Click here to view the hosted project](https://github.com/sathvikn113/CodeSpark.git)
 
 > _Replace with your actual GitHub Pages link above._
 
