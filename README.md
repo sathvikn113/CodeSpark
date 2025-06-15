@@ -1,12 +1,35 @@
-# React + Vite
+# 🎓 CodeSpark – Education Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CodeSpark** is an affordable, customizable education management platform for:
+- Freelance tutors
+- Subject experts
+- Small coaching centers
+- College professors
 
-Currently, two official plugins are available:
+It allows educators to deliver structured online courses with features that platforms like YouTube, WhatsApp, or Google Drive don't offer — such as content protection, enrollment tracking, and better student management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Click here to view the hosted project](https://your-username.github.io/your-repo-name)
+
+> _Replace with your actual GitHub Pages link above._
+
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: React.js / HTML + CSS + JS
+- Styling: Tailwind CSS / Bootstrap (optional)
+- Deployment: GitHub Pages
+
+---
+
+## 📁 Project Setup (For Developers)
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
