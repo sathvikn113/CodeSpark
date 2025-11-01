@@ -14,7 +14,6 @@ It allows educators to deliver structured online courses with features that plat
 
 🔗 [Click here to view the hosted project](https://github.com/sathvikn113/CodeSpark.git)
 
-> _Replace with your actual GitHub Pages link above._
 
 ---
 
